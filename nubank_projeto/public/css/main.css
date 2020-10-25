@@ -1,0 +1,234 @@
+/* estilos globais */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html ,
+body {
+    height: 100%;
+}
+
+.left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.right {
+    float: right;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+/* fim dos estilos globais */
+
+
+
+
+/* menu */
+
+.mobile{
+	display: none;
+}
+
+.fade {
+    opacity: 0;
+}
+
+nav.desktop ul{
+	position: relative;
+    list-style-type: none;
+    top: 10px;
+}
+
+nav.desktop li{
+	font-weight: 400;
+	font-size: 15px;
+	padding:0 15px;
+	display: inline-block;
+}
+
+nav.desktop a{
+	color: #222;
+	text-decoration: none;
+}
+
+nav.desktop a:hover{
+    transition: 1s;
+    color: rgb(138, 5, 190);
+}
+
+.top-menu img{
+	max-width: 50px;
+}
+
+.top-menu {
+    padding: 15px 20px;
+ }
+
+/* fim do menu */
+
+
+/* chamada */
+
+.chamada {
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    padding: 0 0 0 140px;
+}
+
+.chamada h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.chamada h2 {
+    color: white;
+    font-weight: 400;
+    font-weight: 600;
+    font-size: 18px; 
+    margin: 10px 0 15px 0;    
+}
+
+.chamada > h2 > .borda-efeito {
+	width: 0;
+	height: 1.5px;
+	background: white;
+    transition: 0.4s;
+}
+
+.chamada > h2:hover > .borda-efeito {
+	width: 160px;
+}
+
+.chamada-part2 img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    max-height: 600px;
+}
+
+.chamada button {
+    width: 180px;
+    height: 50px;
+    color: rgb(138, 5, 190);
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    background: white;
+}
+
+.chamada button:hover {
+    background: rgb(238, 238, 238);
+    transition: 1s;
+}
+
+/*  */
+
+footer {
+    background: rgb(17, 17, 17);
+    padding: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+  
+.grid-item {
+    padding: 20px;
+}
+
+footer h2 {
+    color: rgb(245, 245, 245);
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+footer a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: rgb(138, 5, 190);
+}
+
+/* part 2 */
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 60px 0;
+}
+  
+.grid-item2 {
+    padding: 20px;
+}
+
+.grid-item2 img {
+    max-width: 70px;
+}
+
+.grid-container2 span {
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    padding-left: 12px;
+    font-weight: 300;
+}
+
+.grid-item2 i {
+    color: white;
+    display: inline;
+    float: right;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.grid-item2 i:hover {
+    color: rgb(138, 5, 190);
+    cursor: pointer;
+}
+
+/* final */
+
+.final {
+    padding: 50px 20px;
+    color: white;
+}
+
+.final label:hover {
+    text-decoration: underline;
+    color: rgb(138, 5, 190);
+}
+
+.final input, label {
+    padding: 10px;
+}
